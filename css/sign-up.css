@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  background-color: rgb(5, 5, 94);
+  width: 100%;
+  padding: 10px 0;
+}
+
+.sign{
+  background-color: green;
+  border-radius: 3px;
+  padding: 5px!important;
+  height: 30px;
+  margin-top: 3%;
+}
+
+.sign p{
+  margin: 0; 
+}
+
+.body-div{
+  background-color: rgb(240, 242, 245);
+  width: 100%;
+  height: 100dvh;
+  
+}
+
+.body{
+  width: 30%;
+}
+
+input{
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 0;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  background-color: rgb(11, 107, 11);
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 48px;
+  padding-right: 48px;
+  border: 0;
+  border-radius: 10px;
+}

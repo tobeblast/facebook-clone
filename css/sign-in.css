@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section{
+  background-color: rgb(5, 5, 94);
+  width: 100%;
+  height: auto;
+}
+
+p{
+  margin: 0;
+}
+
+.body{
+  padding: 40px;
+}
+
+input {
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 0;
+}
+
+form{
+  margin-top: 10%!important;
+  margin-bottom: 10%!important;
+}
+
+.log{
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 25%;
+}

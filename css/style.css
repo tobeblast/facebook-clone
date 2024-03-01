@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: rgb(240, 242, 245);
+  width: 100%;
+  height: auto;
+  overflow: hidden!important;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.search {
+  background-color: rgb(240, 242, 245);
+  margin-left: -23%;
+  border-radius: 50px;
+  align-items: center;
+  /* width: 35%; */
+}
+
+.search p {
+  margin-bottom: 0 !important;
+  font-size: 25px;
+  margin-left: -75%;
+}
+
+.facebook-logo {
+  /* width: 33.33%; */
+}
+
+.icon-div {
+  /* width: 33.33%; */
+  /* margin-left: 0%; */
+}
+
+.icon-div-2 {
+  /* width: 33.33%; */
+  margin-left: 25%;
+}
+
+.icon-div-2 .icon img {
+  background-position: center;
+  background: rgb(240, 242, 245);
+  width: 50px;
+  height: 38px;
+  background-position: center;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+.icon img:hover {
+  cursor: pointer;
+}
+
+.icon {
+  /* width: 30%; */
+}
+
+.icon img {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.kil,
+.fri,
+.pag,
+.fee,
+.memo,
+.sav,
+.gro,
+.vid,
+.profess,
+.see {
+  width: 3%;
+}
+
+.eve {
+  width: 2.5%;
+}
+
+/* .ads{
+  width: 2.8%;
+} */
+
+.see {
+  background-position: center;
+  background: rgb(216, 218, 223);
+  width: 30px;
+  height: 28px;
+  background-position: center;
+  align-items: center;
+  border-radius: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+.birth p {
+  color: rgb(106, 108, 112);
+  text-align: left;
+  /* margin-left: -95%; */
+}
+
+.birth {
+  /* margin-left: -80%; */
+}
+
+.day {
+  width: 10%;
+}
+
+.swipe {
+  cursor: pointer;
+  height: 20dvh;
+}
+
+.swipe img {
+  border-radius: 20px 20px 0 0;
+}
+
+.back {
+  border-radius: 0 0 20px 20px;
+}

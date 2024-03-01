@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="icon/x-image" href="./assets/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <style>
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/64aebfb478.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <nav class="navbar-expand-lg bg-white py-3">
+          <div
+            class="container-fluid d-flex justify-content-between align-items-center"
+          >
+            <div class="d-flex facebook-logo">
+              <div class="">
+                <img src="./assets/facebook.svg" alt="" width="30%" />
+              </div>
+              <div class="d-flex search">
+                <div class="w-50 ms-3">
+                  <img src="./assets/search.png" alt="" width="18%" />
+                </div>
+                <div class="w-50">
+                  <p>Search Facebook</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex icon-div justify-content-between">
+              <div class="icon">
+                <img src="./assets/home.png" alt="" width="" />
+              </div>
+              <div class="icon">
+                <img src="./assets/facebook.png" alt="" width="" />
+              </div>
+              <div class="icon">
+                <img src="./assets/facebook friend.png" alt="" width="" />
+              </div>
+              <div class="icon-video">
+                <img src="./assets/video-game.png" alt="" width="60%" />
+              </div>
+            </div>
+            <div class="d-flex icon-div-2">
+              <div class="icon">
+                <img src="./assets/dots.png" alt="" width="" />
+              </div>
+              <div class="icon">
+                <img src="./assets/facebook-messenger.png" alt="" width="" />
+              </div>
+              <div class="icon">
+                <img src="./assets/bell.png" alt="" width="" />
+              </div>
+              <div class="icon">
+                <img src="./assets/kil.png" alt="" width="20%" />
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="d-flex justify-content-between container-fluid mt-3 gap-4">
+          <aside class="w-25">
+            <div class="d-flex pro gap-3">
+              <div class="kil">
+                <img
+                  src="./assets/kil.png"
+                  alt=""
+                  width="100%"
+                  class="rounded-pill"
+                />
+              </div>
+              <div class="mt-1">
+                <p>Tobechukwu Nwanne</p>
+              </div>
+            </div>
+            <div class="d-flex friend gap-3">
+              <div class="fri">
+                <img src="./assets/friend.png" alt="" width="100%" />
+              </div>
+              <div class="mt-1">
+                <p>Friends</p>
+              </div>
+            </div>
+            <div class="d-flex gap-3 pages">
+              <div class="pag">
+                <img src="./assets/facebook-page.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Pages</p>
+              </div>
+            </div>
+            <div class="d-flex feeds gap-3">
+              <div class="fee">
+                <img src="./assets/feed.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Feeds</p>
+              </div>
+            </div>
+            <div class="d-flex memories gap-3">
+              <div class="memo">
+                <img src="./assets/memories.png" alt="" width="100%" />
+              </div>
+              <div class="mt-1">
+                <p>Memories</p>
+              </div>
+            </div>
+            <div class="d-flex saved gap-3">
+              <div class="sav">
+                <img src="./assets/saved.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Saved</p>
+              </div>
+            </div>
+            <div class="d-flex group gap-3">
+              <div class="gro">
+                <img src="./assets/groups.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Groups</p>
+              </div>
+            </div>
+            <div class="d-flex videos gap-3">
+              <div class="vid">
+                <img src="./assets/video.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Video</p>
+              </div>
+            </div>
+            <div class="d-flex event gap-3">
+              <div class="eve">
+                <img src="./assets/calendar.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Event</p>
+              </div>
+            </div>
+            <div class="d-flex Professional gap-3">
+              <div class="profess">
+                <img src="./assets/analytics.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Professional dashboard</p>
+              </div>
+            </div>
+            <!-- <div class="d-flex ads-man gap-3">
+              <div class="ads">
+                <img src="./assets/ads.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>Ads Manager</p>
+              </div>
+            </div> -->
+            <div class="d-flex see-more gap-3">
+              <div class="see">
+                <img src="./assets/down.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p>See more</p>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Middle -->
+          <div class="w-50">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swipe">
+                    <img src="./assets/kil.png" alt="" width="100%" />
+                    <div class="bg-black text-white py-2 back">
+                      <h6>Javena Melo</h6>
+                      <p>Founder, Director</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swipe">
+                    <img src="./assets/Anointed Gift.jpg" alt="" width="100%" />
+                    <div class="bg-black text-white py-2 back">
+                      <h6>Luisa Wilson</h6>
+                      <p>Support Assistant</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swipe">
+                    <img src="./assets/Emmanuel Ibe.jpg" alt="" width="100%" />
+                    <div class="bg-black text-white py-2 back">
+                      <h6>Javena Melo</h6>
+                      <p>Founder, Director</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swipe">
+                    <img src="./assets/Blessing Ndam.jpg" alt="" width="100%" />
+                    <div class="bg-black text-white py-2 back">
+                      <h6>Kylee Danford</h6>
+                      <p>Sales Manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swipe">
+                    <img src="./assets/Elem Shadrach.jpg" alt="" width="100%" />
+                    <div class="bg-black text-white py-2 back">
+                      <h6>Paul Honson</h6>
+                      <p>Head Technician</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swipe">
+                    <img src="./assets/Chukwu Samuel.jpg" alt="" width="100%" />
+                    <div class="bg-black text-white py-2 back">
+                      <h6>Devon Lane</h6>
+                      <p>Technician</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swipe">
+                    <img
+                      src="./assets/Chioma Elizabeth God'sgift.jpg"
+                      alt=""
+                      width="100%"
+                    />
+                    <div class="bg-black text-white py-2 back">
+                      <h6>Jalen Davies</h6>
+                      <p>Marketing</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-button-next bg-white rounded-pill"></div>
+              <div class="swiper-button-prev bg-white rounded-pill"></div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <aside class="w-25">
+            <div class="birth">
+              <div class="">
+                <p>Birthdays</p>
+              </div>
+            </div>
+            <div class="birthdays d-flex gap-3 justify-content-between">
+              <div class="day">
+                <img src="./assets/giftbox.png" alt="" width="100%" />
+              </div>
+              <div class="">
+                <p><span>Ikpa Precious'</span>s birthday is today</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </header>
+      <main></main>
+    </section>
+    <script href="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+          1440: {
+            slidesPerView: 3,
+            spaceBetween: 60,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
