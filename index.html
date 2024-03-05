@@ -7,45 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" type="icon/x-image" href="./assets/favicon-32x32.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <style>
-      body {
-        position: relative;
-        height: 100%;
-      }
 
-      body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper {
-        width: 100%;
-        height: 100%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    </style>
     <script
       src="https://kit.fontawesome.com/64aebfb478.js"
       crossorigin="anonymous"
@@ -54,56 +16,38 @@
   <body>
     <section>
       <header>
-        <nav class="navbar-expand-lg bg-white py-3">
-          <div
-            class="container-fluid d-flex justify-content-between align-items-center"
-          >
-            <div class="d-flex facebook-logo">
-              <div class="">
-                <img src="./assets/facebook.svg" alt="" width="30%" />
-              </div>
-              <div class="d-flex search">
-                <div class="w-50 ms-3">
-                  <img src="./assets/search.png" alt="" width="18%" />
-                </div>
-                <div class="w-50">
-                  <p>Search Facebook</p>
-                </div>
-              </div>
+        <nav
+          class="d-flex align-items-center justify-content-between position-fixed"
+        >
+          <div class="left d-flex align-items-center justify-content-between">
+            <div class="logo">
+              <img src="./assets/facebook.svg" alt="" />
             </div>
-            <div class="d-flex icon-div justify-content-between">
-              <div class="icon">
-                <img src="./assets/home.png" alt="" width="" />
-              </div>
-              <div class="icon">
-                <img src="./assets/facebook.png" alt="" width="" />
-              </div>
-              <div class="icon">
-                <img src="./assets/facebook friend.png" alt="" width="" />
-              </div>
-              <div class="icon-video">
-                <img src="./assets/video-game.png" alt="" width="60%" />
-              </div>
+
+            <div class="search_bar d-flex">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search Facebook" />
             </div>
-            <div class="d-flex icon-div-2">
-              <div class="icon">
-                <img src="./assets/dots.png" alt="" width="" />
-              </div>
-              <div class="icon">
-                <img src="./assets/facebook-messenger.png" alt="" width="" />
-              </div>
-              <div class="icon">
-                <img src="./assets/bell.png" alt="" width="" />
-              </div>
-              <div class="icon">
-                <img src="./assets/kil.png" alt="" width="20%" />
-              </div>
-            </div>
+          </div>
+
+          <div class="center d-flex align-items-center">
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-tv"></i>
+            <i class="fa-solid fa-store"></i>
+            <i class="fa-solid fa-users"></i>
+          </div>
+
+          <div class="right d-flex align-items-center">
+            <i class="fa-solid fa-list-ul"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-moon"></i>
+            <img src="./assets/kil.png" alt="" width="50px" />
           </div>
         </nav>
 
         <div class="d-flex justify-content-between container-fluid mt-3 gap-4">
-          <aside class="w-25">
+          <!-- <aside class="w-25">
             <div class="d-flex pro gap-3">
               <div class="kil">
                 <img
@@ -189,14 +133,14 @@
                 <p>Professional dashboard</p>
               </div>
             </div>
-            <!-- <div class="d-flex ads-man gap-3">
+             <div class="d-flex ads-man gap-3">
               <div class="ads">
                 <img src="./assets/ads.png" alt="" width="100%" />
               </div>
               <div class="">
                 <p>Ads Manager</p>
               </div>
-            </div> -->
+            </div> 
             <div class="d-flex see-more gap-3">
               <div class="see">
                 <img src="./assets/down.png" alt="" width="100%" />
@@ -205,88 +149,38 @@
                 <p>See more</p>
               </div>
             </div>
-          </aside>
+          </aside> -->
 
           <!-- Middle -->
-          <div class="w-50">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="swipe">
-                    <img src="./assets/kil.png" alt="" width="100%" />
-                    <div class="bg-black text-white py-2 back">
-                      <h6>Javena Melo</h6>
-                      <p>Founder, Director</p>
-                    </div>
-                  </div>
+          <!-- <div class="w-50">
+            <div class="">
+              <div class="d-flex">
+                <div class="">
+                  <img src="./assets/Teacher Chike.jpg" alt="" width="100%" />
                 </div>
-                <div class="swiper-slide">
-                  <div class="swipe">
-                    <img src="./assets/Anointed Gift.jpg" alt="" width="100%" />
-                    <div class="bg-black text-white py-2 back">
-                      <h6>Luisa Wilson</h6>
-                      <p>Support Assistant</p>
-                    </div>
-                  </div>
+                <div class="">
+                  <img src="./assets/Sam Uel.jpg" alt="" width="100%" />
                 </div>
-                <div class="swiper-slide">
-                  <div class="swipe">
-                    <img src="./assets/Emmanuel Ibe.jpg" alt="" width="100%" />
-                    <div class="bg-black text-white py-2 back">
-                      <h6>Javena Melo</h6>
-                      <p>Founder, Director</p>
-                    </div>
-                  </div>
+                <div class="">
+                  <img src="./assets/Precious Okwoka.jpg" alt="" width="100%" />
                 </div>
-                <div class="swiper-slide">
-                  <div class="swipe">
-                    <img src="./assets/Blessing Ndam.jpg" alt="" width="100%" />
-                    <div class="bg-black text-white py-2 back">
-                      <h6>Kylee Danford</h6>
-                      <p>Sales Manager</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="swipe">
-                    <img src="./assets/Elem Shadrach.jpg" alt="" width="100%" />
-                    <div class="bg-black text-white py-2 back">
-                      <h6>Paul Honson</h6>
-                      <p>Head Technician</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="swipe">
-                    <img src="./assets/Chukwu Samuel.jpg" alt="" width="100%" />
-                    <div class="bg-black text-white py-2 back">
-                      <h6>Devon Lane</h6>
-                      <p>Technician</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="swipe">
-                    <img
-                      src="./assets/Chioma Elizabeth God'sgift.jpg"
-                      alt=""
-                      width="100%"
-                    />
-                    <div class="bg-black text-white py-2 back">
-                      <h6>Jalen Davies</h6>
-                      <p>Marketing</p>
-                    </div>
-                  </div>
+                <div class="">
+                  <img
+                    src="./assets/Honorable Greatsam Singerblot.jpg"
+                    alt=""
+                    width="100%"
+                  />
                 </div>
               </div>
-
-              <div class="swiper-button-next bg-white rounded-pill"></div>
-              <div class="swiper-button-prev bg-white rounded-pill"></div>
-
-              <div class="swiper-pagination"></div>
+              <div class="position-relative">
+                <div class="position-absolute opacity">
+                  <p></p>
+                </div>
+              </div>
             </div>
-          </div>
-          <aside class="w-25">
+          </div> -->
+
+          <!-- <aside class="w-25">
             <div class="birth">
               <div class="">
                 <p>Birthdays</p>
@@ -300,56 +194,238 @@
                 <p><span>Ikpa Precious'</span>s birthday is today</p>
               </div>
             </div>
-          </aside>
+          </aside> -->
         </div>
       </header>
-      <main></main>
+
+      <!-- main -->
+      <main>
+        <div class="main d-flex">
+          <!-- left -->
+
+          <div class="left">
+            <div class="img">
+              <img src="./assets/kil.png" alt="" />
+              <p>Tobechukwu Nwanne</p>
+            </div>
+            <div class="img">
+              <img src="./assets/friend.png" alt="" />
+              <p>Friends</p>
+            </div>
+            <div class="img">
+              <img src="./assets/feed.png" alt="" />
+              <p>Feed</p>
+            </div>
+            <div class="img">
+              <img src="./assets/facebook-page.png" alt="" />
+              <p>Pages</p>
+            </div>
+            <div class="img">
+              <img src="./assets/groups.png" alt="" />
+              <p>Groups</p>
+            </div>
+            <div class="img">
+              <img src="./assets/video.png" alt="" />
+              <p>Video</p>
+            </div>
+            <div class="img">
+              <img src="./assets/memories.png" alt="" />
+              <p>Memories</p>
+            </div>
+            <div class="img">
+              <img src="./assets/saved.png" alt="" />
+              <p>Saved</p>
+            </div>
+            <div class="img">
+              <img src="./assets/down.png" alt="" />
+              <p>See more</p>
+            </div>
+
+            <hr />
+
+            <h2>Your shortcuts</h2>
+            <p class="edit">Edit</p>
+
+            <div class="shortcuts">
+              <img src="./assets/Word.jpg" alt="" />
+              <p>THE WORD OF GOD IS MY SHIELD</p>
+            </div>
+            <div class="shortcuts">
+              <img src="./assets/Kingdom Memes Family.png" alt="" />
+              <p>Kingdom Memes Family</p>
+            </div>
+            <div class="shortcuts">
+              <img
+                src="./assets/DIY-Arduino-HERO-Projects-and-Guides.jpg"
+                alt=""
+              />
+              <p>DIY Arduino/HERO Projects and Guides</p>
+            </div>
+          </div>
+
+          <!-- center -->
+
+          <div class="center">
+            <div class="top_box">
+              <div class="my_story_card">
+                <img src="./assets/kil.png" alt="" />
+
+                <div class="story_upload">
+                  <img src="./assets/upload.png" alt="" />
+                  <p class="story_tag">Creat Story</p>
+                </div>
+              </div>
+
+              <div class="story_card">
+                <img src="./assets/Adebayo-Daniel.jpg" alt="" />
+
+                <div class="story_profile">
+                  <img src="./assets/Adebayo2.jpg" alt="" />
+                  <div class="circle"></div>
+                </div>
+
+                <div class="story_name">
+                  <p class="name">Adebayo Daniel</p>
+                </div>
+              </div>
+              <div class="story_card">
+                <img src="./assets/Babatunde.jpg" alt="" />
+
+                <div class="story_profile">
+                  <img src="./assets/Babatunde2.jpg" alt="" />
+                  <div class="circle"></div>
+                </div>
+
+                <div class="story_name">
+                  <p class="name">Babatunde Bode</p>
+                </div>
+              </div>
+              <div class="story_card">
+                <img src="./assets/Nebechi.jpg" alt="" />
+
+                <div class="story_profile">
+                  <img src="./assets/Nebechi2.jpg" alt="" />
+                  <div class="circle"></div>
+                </div>
+
+                <div class="story_name">
+                  <p class="name">Nzubechi Emmanuel (Cheif priest)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="post">
+              <div class="my_post">
+                <div class="post_top">
+                  <img src="./assets/kil.png" alt="" />
+                  <input
+                    type="text"
+                    placeholder="What's on your mind, Tobechukwu?"
+                  />
+                </div>
+
+                <hr />
+
+                <div class="post_bottom">
+                  <!-- Live video -->
+                  <div class="post_icon">
+                    <img src="./assets/Live.png" alt="" />
+                    <p>Live Video</p>
+                  </div>
+
+                  <!-- Photo/Video -->
+                  <div class="post_icon">
+                    <img src="./assets/Photos.png" alt="" />
+                    <p>Photo/Video</p>
+                  </div>
+
+                  <!-- Reel; -->
+                  <div class="post_icon">
+                    <img src="./assets/Reels.png" alt="" />
+                    <p>Reel</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Friends post -->
+
+              <div class="friends_post">
+                <div class="friend_post_top">
+                  <div class="img_and_name">
+                    <img src="./assets/ebeta2.jpg" alt="" />
+
+                    <div class="friends_name">
+                      <p class="friends_name">Ebeta Jerry</p>
+                      <p class="time">
+                        16h.<i class="fa-solid fa-user-group"></i>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="menu">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+                </div>
+
+                <img src="./assets/Ebeta jerry.jpg" alt="" />
+
+                <div class="info">
+                  <div class="emoji_img">
+                    <img src="./assets/like.svg" alt="" />
+                    <img src="./assets/haha.svg" alt="" />
+                    <img src="./assets/love.png" alt="" />
+                    <p>You, Ugochukwu and 25k others</p>
+                  </div>
+
+                  <div class="comment">
+                    <p>421 Comment</p>
+                    <p>1.3k Shares</p>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="like">
+                  <div class="like_icon">
+                    <i class="fa-light fa-thumbs-up"></i>
+                    <p>Like</p>
+                  </div>
+
+                  <div class="like_icon">
+                    <i class="fa-thin fa-comment"></i>
+                    <p>Comments</p>
+                  </div>
+
+                  <div class="like_icon">
+                    <i class="fa-light fa-share"></i>
+                    <p>Share</p>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="comment_warpper">
+                  <img src="" alt="" />
+                  <div class="circle"></div>
+
+                  <div class="comment_search">
+                    <input type="text" placeholder="write a comment" />
+                    <i class="fa-light fa-face-smile"></i>
+                    <i class="fa-light fa-camera"></i>
+                    <i class="fa-light fa-note-sticky"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right -->
+
+          <div class="right"></div>
+        </div>
+      </main>
     </section>
     <script href="./js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-          1440: {
-            slidesPerView: 3,
-            spaceBetween: 60,
-          },
-        },
-      });
-    </script>
   </body>
 </html>
