@@ -760,3 +760,16 @@ nav .right img{
   bottom: 0;
   right: 27px;
 }
+
+.creat_group:hover{
+  background: #efefef;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.creat_group i{
+  background: #e3e3e3;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 20px;
+}
