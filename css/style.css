@@ -28,9 +28,10 @@ nav{
 }
 
 nav .left .logo img{
-  width: 50px;
+  width: 35px;
   margin: 5px 0;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 nav .left .search_bar{
@@ -223,7 +224,7 @@ nav .right img{
   width: 135px;
   height: 250px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 -10px;
   box-shadow: 0 1px 8px rgb(0,0,0,0,2);
   border-radius: 10px;
   cursor: pointer;
@@ -269,7 +270,7 @@ nav .right img{
   width: 135px;
   height: 250px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 -10px;
   box-shadow: 0 1px 8px rgb(0, 0, 0, 0, 2);
   border-radius: 10px;
   cursor: pointer;
@@ -319,7 +320,7 @@ nav .right img{
 }
 
 .post{
-  padding: 0 50px;
+  padding: 0 70px 0 20px;
 }
 
 .main .center .my_post{
@@ -385,7 +386,7 @@ nav .right img{
   gap: 5px;
   align-items: center;
   margin: 0 auto;
-  padding: 5px 20px;
+  padding: 5px 15px;
   cursor: pointer;
 }
 
@@ -592,5 +593,103 @@ nav .right img{
   border: 1px solid #919191;
   color: #919191;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.main .center .end{
+  font-size: 15px;
+  text-align: center;
+  color: #919191;
+  margin: 10px 0;
+}
+
+.main .center .end span{
+  margin-left: 8px;
+  color: #45abff;
+}
+
+.main .center .end span i{
+  margin-right: 8px;
+}
+
+.main .right{
+  width: 25%;
+  height: 92vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: #f5f5f5;
+  padding: 20px 10px 5px 6px;
+  position: fixed;
+  right: 0;
+}
+
+.main .right::-webkit-scrollbar{
+  width: 7px;
+}
+
+.main .right::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #f5f5f5;
+}
+
+.main .right:hover::-webkit-scrollbar-thumb {
+  background: #cccccc;
+}
+
+.right h4{
+  color: #919191;
+  margin-top: 20px;
+}
+
+.people{
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.people:hover{
+  background: #efefef;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.people img{
+  width: 35px;
+  height: 35px;
+}
+
+.people p{
+  font-weight: bold;
+}
+
+.people span{
+  font-weight: normal;
+}
+
+.contact i{
+  margin-left: 30px;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  object-position: center;
+  font-size: 20px;
+  /* position: relative;
+  top: 15px; */
+}
+
+.contact i:hover{
+  background: #efefef;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.online img{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: 8px 15px 8px 0;
+  border: 3px solid #45abff;
   cursor: pointer;
 }
