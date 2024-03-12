@@ -425,8 +425,8 @@ nav .right img{
 }
 
 .main .center .friends_post .friend_post_top .img_and_name .friends_name:hover {
-    text-decoration: underline;
-  }
+  text-decoration: underline;
+}
 
 .main .center .friends_post .friend_post_top .img_and_name .friends_name .time {
   font-size: 14px;
@@ -776,6 +776,11 @@ nav .right img{
 }
 
 @media(max-width:500px){
+
+  html{
+    width: 100%!important;
+  }
+
   .nav_desktop{
   display: none!important;
   }
@@ -848,8 +853,8 @@ nav .right img{
     gap: 8px;
     margin-bottom: 8px;
     width: 100%;
+    justify-content: center;
   }
-
 
   .kil img{
     width: 40px;
@@ -978,7 +983,6 @@ nav .right img{
   }
 
   .friend_story .profile .name_div{
-    /* position: relative; */
     bottom: 0;
     padding: 0 10px;
   }
@@ -989,6 +993,155 @@ nav .right img{
     font-size: 14px;
   }
 
+  .center_mobile{
+    width: 100%;
+  }
 
+  .center_mobile .post{
+    padding: 0;
+  }
+
+  .center_mobile .friends_post{
+    margin: 10px 0;
+    border-bottom: 4px solid #cccccc;
+  }
+
+  .center_mobile .friends_post img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+  }
+  
+  .center_mobile img{
+    width: 100%;
+  }
+
+  .center_mobile .friends_post .friend_post_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .center_mobile .friends_post .friend_post_top .menu{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .center_mobile .friends_post .friend_post_top .menu:hover{
+    background: #efefef;
+    cursor: pointer;
+  }
+  
+  .center_mobile .friends_post .friend_post_top .menu i{
+    line-height: 35px;
+    margin-left: 8px;
+    font-size: 18px;
+  }
+
+  .center_mobile .img_and_name{
+    display: flex;
+    align-items: center;
+  }
+
+  .center_mobile .img_and_name .friends_name {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .center_mobile .img_and_name .friends_name:hover {
+    text-decoration: underline;
+  }
+
+  .center_mobile .img_and_name .friends_name .time{
+    font-size: 14px;
+    color: #919191;
+    margin: 3px 0;
+  }
+
+  .center_mobile .img_and_name img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  .center_mobile .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+
+  .center_mobile .info .emoji_img{
+    display: flex;
+    padding: 0 5px;
+  }
+  
+  .center_mobile .info .emoji_img img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .center_mobile .like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 5px;
+  }
+
+  .center_mobile .like_icon{
+    background: #cccccc;
+    border-radius: 20px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .center_mobile .like_icon i{
+    margin-top: 0.5px;
+    color: #919191;
+    font-size: 20px;
+  }
+  
+  .center_mobile .like_icon .activi{
+    color: #45abff;
+  }
+
+  .center_mobile .loard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+  }
+  
+  .center_mobile .loard button{
+    background: none;
+    padding: 5px 20px;
+    border: 1px solid #919191;
+    color: #919191;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .center_mobile .end{
+    font-size: 15px;
+    text-align: center;
+    color: #919191;
+    margin: 10px 0;
+  }
+  
+  .center_mobile .end span{
+    margin-left: 8px;
+    color: #45abff;
+  }
 
 }
