@@ -5,20 +5,13 @@
   font-family: sans-serif;
 }
 
-/* section {
-  background-color: rgb(240, 242, 245);
-  width: 100%;
-  height: auto;
-  overflow: hidden!important;
-} */
-
 p {
   font-weight: 400;
   font-size: 18px;
   margin: 0;
 }
 
-nav{
+.nav_desktop{
   width: 100%;
   height: 60px;
   border-bottom: 1px solid #cccccc;
@@ -772,4 +765,230 @@ nav .right img{
   border-radius: 50%;
   padding: 10px;
   margin-left: 20px;
+}
+
+.nav_mobile{
+  display: none;
+}
+
+.main_mobile{
+  display: none;
+}
+
+@media(max-width:500px){
+  .nav_desktop{
+  display: none!important;
+  }
+
+  .main_desktop {
+    display: none;
+  }
+
+  .main_mobile{
+    display: block!important;
+    margin-top: 33%;
+  }
+
+  .nav_mobile{
+    display: block!important;
+    position: fixed;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 90px;
+    padding: 12px 10px;
+  }
+
+  .face_div{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .face h4{
+    color: blue;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .face_div i{
+    background: #cccccc;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-left: 8px;
+  }
+
+  .nav_icons{
+    color: #cccccc;
+    margin-top: 15px;
+  }
+
+  .nav_icons i:hover{
+    color: blue;
+    cursor: pointer;
+  }
+
+  .main_m{
+    width: 100%;
+  }
+
+  .kil_div2{
+    border-bottom: 4px solid #cccccc;
+    width: 100%;
+  }
+
+  .kil_div{
+    align-items: center;
+    padding-left: 5px;
+    gap: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+
+
+  .kil img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .kil .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #27cc37;
+    border: 2px solid #fff;
+    position: relative;
+    bottom: 15px;
+    left: 25px;
+  }
+
+  .kil_div input{
+    width: 70%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    background: #efefef;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+
+  .kil_div p{
+    font-size: 10px;
+  }
+
+  .storys{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .my_story{
+    width: 110px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 -10px;
+    box-shadow: 0 1px 8px #cccccc;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .my_story img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .my_story .upload{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+  }
+
+  .my_story .upload img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    bottom: 15px;
+    border-radius: 50%;
+  }
+
+  .my_story .upload .tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .friend_story{
+    width: 110px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 -10px;
+    box-shadow: 0 1px 8px #cccccc;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .friend_story img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .friend_story .profile{
+    position: relative;
+    bottom: 198px;
+    margin-left: 10px;
+  }
+
+  .friend_story .profile img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 4px solid #45abff;
+  }
+
+  .friend_story .profile .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #27cc37;
+    border: 2px solid #fff;
+    position: relative;
+    bottom: 15px;
+    left: 25px;
+  }
+
+  .friend_story .profile .name_div{
+    /* position: relative; */
+    bottom: 0;
+    padding: 0 10px;
+  }
+
+  .friend_story .profile .name_div .name{
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+  }
+
+
+
 }

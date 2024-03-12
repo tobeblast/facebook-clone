@@ -17,7 +17,7 @@
     <section>
       <header>
         <nav
-          class="d-flex align-items-center justify-content-between position-fixed"
+          class="nav_desktop d-flex align-items-center justify-content-between position-fixed"
         >
           <div class="left d-flex align-items-center justify-content-between">
             <div class="logo">
@@ -45,10 +45,35 @@
             <img src="./assets/kil.png" alt="" width="50px" />
           </div>
         </nav>
+
+        <!-- Mobile Nav -->
+        <nav class="nav_mobile">
+          <div class="d-flex face_div">
+            <div class="face">
+              <h4>facebook</h4>
+            </div>
+            <div class="more">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+
+          <div
+            class="d-flex justify-content-between align-items-center nav_icons"
+          >
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-user-group"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-tv"></i>
+            <i class="fa-solid fa-chart-column"></i>
+          </div>
+        </nav>
       </header>
 
       <!-- main -->
-      <main>
+      <main class="main_desktop">
         <div class="main d-flex">
           <!-- left -->
 
@@ -679,6 +704,56 @@
             >
               <i class="fa-solid fa-plus"></i>
               <p>Creat New Group</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Main_mobile -->
+      <main class="main_mobile">
+        <div class="main_m">
+          <div class="kil_div2">
+            <div class="d-flex kil_div">
+              <div class="kil">
+                <img src="./assets/kil.png" alt="" />
+                <div class="circle"></div>
+              </div>
+              <input type="text" placeholder="What's on your mind?" />
+              <div class="">
+                <img src="./assets/Photos.png" alt="" />
+                <p>Photo</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- storys -->
+          <div class="storys px-4 mt-2">
+            <div class="my_story">
+              <img src="./assets/kil.png" alt="" />
+              <div class="upload">
+                <img src="./assets/upload.png" alt="" />
+                <p class="tag">Add to Story</p>
+              </div>
+            </div>
+            <div class="friend_story">
+              <img src="./assets/Adebayo-Daniel.jpg" alt="" />
+              <div class="profile">
+                <img src="./assets/Adebayo2.jpg" alt="" />
+                <div class="circle"></div>
+              </div>
+              <div class="name_div">
+                <p class="name">Adebayo Daniel</p>
+              </div>
+            </div>
+            <div class="friend_story">
+              <img src="./assets/Babatunde.jpg" alt="" />
+              <div class="profile">
+                <img src="./assets/Babatunde2.jpg" alt="" />
+                <div class="circle"></div>
+              </div>
+              <div class="name_div">
+                <p class="name">Babatunde Bode</p>
+              </div>
             </div>
           </div>
         </div>
